@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Ekorecept",
+  "description": "Calcultate the carbon and energy footprint of recipes.",
+  "version": "1.1",
+ 
+  "icons": { "16": "logo-16.png",
+           "48": "logo-48.png",
+          "128": "logo-128.png" }, 
+  "permissions": ["http://recept.kasperi.se/*"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["recept.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

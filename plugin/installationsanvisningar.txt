@@ -1,0 +1,13 @@
+INSTALLATIONSANVISNINGAR
+
+1. Ladda hem och packa upp vårat add-on.
+
+2. Öppna Google Chrome, gå in i Inställningar -> Tillägg, kryssa i "Programmerarläge".
+
+3. Tryck på knappen "Hämta okomprimerat tillägg.." och välj mappen som du packade upp vårat add-on.
+
+4. Klart! Surfa in på t.ex. Tasteline och hitta miljövänliga recept.
+
+För hjälp, kontakta:
+danielin@kth.se
+kasperi@kth.se
