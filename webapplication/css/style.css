@@ -1,0 +1,497 @@
+html, body {
+height:100%;
+font-family: 'Nunito', sans-serif;
+color:#7a7a7a;
+margin:0;
+}
+h1,h2,h3,h4, .logo-text {
+	font-family: 'Bitter', serif;
+	font-weight:lighter;
+	color: #323232;
+	text-transform:uppercase;
+	letter-spacing: 3px;
+}
+h1 {
+	font-size:28px;
+	line-height:36px;
+	margin-top:0px;
+}
+h2 {
+	margin-top:0px;
+	font-size:28px;
+	line-height:36px;
+}
+.logo-text {
+	font-size:18px;
+}
+a {
+	color:#15b86e;
+}
+a:visited {
+	color:#15b86e;
+}
+a:hover {
+	color:#7a7a7a;
+	text-decoration:none;
+}
+.page {
+	margin-top:100px;
+}
+
+header,
+.section {
+	width:100%;
+	margin:0 auto;
+}
+
+header .inner {
+	max-width:1040px;
+	margin:0 auto;
+}
+header {
+	-webkit-transform: translateZ(0);
+	position:fixed;
+	z-index:100;
+	top:0;
+	background:#fff;
+	border-bottom:1px solid #DDD;
+	min-height:60px;
+}
+
+header #logo {
+	margin-top:15px;
+}
+
+section {
+	position:relative;
+}
+section .inner {
+	max-width:1040px;
+	padding:70px 10px 70px 10px;
+	margin:0 auto;
+	overflow:hidden;
+	clear:both;
+}
+
+#top {
+	color:white;
+	background: url("../img/bg.jpg") no-repeat top center;
+	background-size: cover;
+	text-align:center;
+	
+}
+#top .inner {
+	margin-top:60px;
+	padding:70px 10px;
+}
+
+#top h1{
+	color:white;	
+	text-transform: uppercase;
+}
+
+button.big,
+.form-submit {
+	display:inline-block;
+	color:white;
+	background-color: #15b86e;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 25px;
+}
+
+button.big:hover,
+.form-submit:hover {
+	background-color:#00a663;
+}
+button.small {
+	display:inline-block;
+	color:white;
+	background-color: #15b86e;
+	border: none;
+	padding: 3px 5px;
+}
+
+button.small:hover {
+	background-color:#00a663;
+}
+body.modal-open {
+	overflow:scroll;
+}
+
+#ref-select, #suggestion-select {
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.suggestion {
+	margin-top:15px;
+}
+
+#suggestion-select {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#convert {
+	margin-top:5%;
+	text-align:center;
+}
+
+#foot {
+	padding:30px;
+	height:250px;
+	background-color:#222;
+}
+
+.footContent {
+	border-top:1px solid #7a7a7a;
+	width:80%;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#foot #contact {
+	float:left;
+} 
+
+#slv {
+	color:#f3f3f3;
+	text-align:center;
+}
+
+#foot a {
+	color:#f3f3f3;
+	text-decoration:underline;
+}
+
+#foot a:hover {
+	color:#7a7a7a;
+}
+
+#backTop {
+	float:right;
+}
+
+#install {
+	background-color:#f3f3f3;
+}
+
+#installHref {
+	text-decoration:underline;
+	color:white;
+}
+
+#installHref:hover {
+	color:#f3f3f3;
+}
+
+.colors {
+	font-weight:bold;
+}
+
+.red {
+	color:#ff5740;
+}
+
+.green {
+	color:#15b86e;
+}
+
+.yellow {
+	color:#f1ff58;
+}
+.section h2 {
+	text-align:center;
+}
+#emissions, #ingredients, #about-lca, #reportCarbon {
+	background-color:#f3f3f3;
+}
+#emissions .inner {	
+	overflow:hidden;
+	clear: both;
+}
+h4.dataLabel {
+	display:inline;
+}
+#googleChart {
+	margin-bottom:-40px;
+	margin-top:-40px;
+	margin-left:-120px;
+}
+
+#emissions .notes {
+	margin-top:30px;
+}
+#emissions .notes h4 {
+	margin:0;
+}
+#emissions .notes ul {
+	margin-top:0;
+}
+
+#villain .inner {
+	text-align:center;
+}
+#ingredients .small {
+	font-size:12px;
+	margin-bottom:15px;
+}
+#ingredients h3 {
+	margin-bottom:5px;
+}
+.ingredient button, 
+.ingredient .amount,
+.ingredient .unit,
+.ingredient .name {
+	margin-right:5px;
+	margin-bottom:10px;
+	display:inline;
+}
+.ingredient .name-hidden {
+	display:none;
+}
+.ingInfo {
+	margin-top:30px;
+}
+.ingInfo,
+.source {
+	text-align:center;
+}
+.source a,
+.source a:hover,
+.source a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+.anchor{
+  display: block;
+  height: 60px;
+  margin-top: -60px;
+  visibility: hidden;
+}
+*:focus {
+	outline:none;
+}
+#toplist {
+	text-align:center;
+}
+.toplist-emission {
+	font-style:italic;
+}
+.toplist-item {
+	text-align:left;
+	max-width:600px;
+	margin:0 auto;
+}
+#share {
+	text-align:center;
+}
+.shareLeft {
+	display:inline-block;
+	width:49%;
+	padding-right:10px;
+	margin-top:15px;
+	text-align:right;
+}
+.shareRight {
+	display:inline-block;
+	width:49%;
+	padding-left:10px;
+	margin-top:15px;
+	text-align:left;
+}
+
+/** INGREDIENSSIDAN **/
+
+table {
+	width:100%;
+	text-align:left;
+}
+table td,
+table th {
+	padding:3px 5px;
+	border:1px solid #dedede;
+}
+thead {
+	background:#f3f3f3;
+	font-family: 'Bitter', serif;
+	font-weight:lighter;
+	color:#323232;
+}
+#carbonData table {
+	margin-top:20px;
+}
+
+#reportCarbon label {
+	font-family: 'Bitter', serif;
+	font-weight:lighter;
+	color: #323232;
+	text-transform:uppercase;
+	letter-spacing: 3px;
+	display:block;
+}
+.form-wrapper label {
+	margin-top:15px;
+	margin-bottom:0px;
+}
+
+
+/*** RESPONSIVE ***/
+
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position:absolute;
+  top:17px;
+  right:15px;
+}
+input,select {
+	box-sizing:border-box;
+}
+#logo {
+	margin-left:10px;
+}
+.fa {
+	font-size:170%;
+}
+.nav-collapse {
+	padding:0;
+	font-size:16px;
+}
+.nav-collapse li {
+	text-align:center;
+	padding:5px 0;
+}
+.nav-collapse li a {
+	display:block;
+}
+
+.logo img {
+	display:inline-block;
+	margin-right:15px;
+}
+.logo-text {
+	display:inline-block;
+}
+@media screen and (min-width: 900px) {
+	.anchor {
+	  	height: 100px;
+  		margin-top: -100px;
+  	}
+	#top .inner {
+		margin-top:100px;
+	}
+	header #logo {
+		margin-top:25px;
+	}
+	header {
+		min-height:100px;
+	}
+	#logo {
+		text-align:center;
+	}
+	.logo img {
+		display:block;
+	}
+	.logo-text {
+		display:block;
+	}
+  	.js .nav-collapse {
+    	position: relative;
+  	}
+  	.js .nav-collapse.closed {
+    	max-height: none;
+  	}
+  	.nav-toggle {
+    	display: none;
+  	}
+   	#logo {
+  	    float:left;
+  	    margin:0;
+  	}
+  	#nav {
+		float:right;
+	}
+	#text {
+		float:left;
+		width:50%;
+		padding-right:10px;
+	}
+	#googleChart {
+		float:left;
+		width:50%;
+		padding-left:10px;
+		margin-left:0;
+	}
+	header .inner {
+		padding:0 10px;
+	}
+	#nav ul {
+		margin-top:43px;
+	}
+	#nav ul li {
+		font-size:12px;
+		list-style-type: none;
+		float:left;
+		padding:0 10px;
+		text-transform:uppercase;
+		display:inline;
+		width:auto;
+	}
+
+	#nav ul li a {
+		color:#7a7a7a;
+	}
+
+	#nav ul li a:hover{
+		color:#15b86e;
+		text-decoration:none;
+	}
+	#ingredients .found-wrapper {
+		display:inline-block;
+		vertical-align:top;
+		padding-right:10px;
+		width:49%;
+	}
+	#ingredients .notfound-wrapper {
+		display:inline-block;
+		vertical-align:top;
+		padding-left:10px;
+		width:49%;
+	}
+	#reportCarbon .form-item {
+		width:40%;
+	}
+	#reportCarbon .form-carbon {
+		width:30%;
+	}
+}
